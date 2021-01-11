@@ -1,7 +1,5 @@
-console.log("hey");
-
 const myFullpage = new fullpage('#fullpage', {
-
+    //hey
     autoScrolling: false,
     navigation: true,
     navigationPosition: 'right',
@@ -10,6 +8,8 @@ const myFullpage = new fullpage('#fullpage', {
     showActiveTooltip: true
 
 });
+
+console.log('testing git')
 
 const config = {
     type: 'carousel',
