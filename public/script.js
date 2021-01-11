@@ -1,3 +1,5 @@
+console.log("hey");
+
 const myFullpage = new fullpage('#fullpage', {
 
     autoScrolling: false,
