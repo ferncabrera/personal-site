@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.html"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@glidejs/glide": "^3.4.1"
+    "@glidejs/glide": "^3.4.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
   }
 }
