@@ -3,7 +3,7 @@ const myFullpage = new fullpage('#fullpage', {
     autoScrolling: false,
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+    // navigationTooltips: ['First page', 'Second page', 'Third and last page'],
     anchors: ['firstPage', 'secondPage', '3rdPage'],
     showActiveTooltip: true
 
@@ -36,6 +36,10 @@ new Glide('.glide', config).mount()
 
 
 $window = $(window);
+$(document).ready(function () {
+    $(".navbar-light .navbar-toggler-icon").addClass('active');
+    $(".navbar-toggler").addClass('active');
+});
 
 $(function () {
 
@@ -50,7 +54,7 @@ $(function () {
 
 $(window).scroll(function () {
 
-    if ($window.scrollTop() > 10) {
+    if ($window.scrollTop() > 1) {
         $("#mainNav .nav-link").addClass('active');
         $("#mainNav .navbar-brand").addClass('active');
         $("#mainNav .navbar-brand").addClass('active');
@@ -63,6 +67,5 @@ $(window).scroll(function () {
         $("#mainNav .navbar-brand").removeClass('active');
         $(".navbar-light .navbar-toggler-icon").addClass('active');
         $(".navbar-toggler").addClass('active');
-
     }
 });

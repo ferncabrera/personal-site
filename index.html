@@ -32,6 +32,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@100;200;300&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/45fa054f84.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -57,19 +61,35 @@
                             <a href="#firstPage" class="nav-link">home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">about</a>
+                            <a href="#secondPage" class="nav-link">about</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">projects</a>
+                            <a href="#3rdPage" class="nav-link">skills</a>
                         </li>
                     </ul>
                 </div>
-
-
-                <!-- </div> -->
-                <!-- </div> -->
-                <!-- </div> -->
             </nav>
+
+            <div class="row h-100">
+                <div class="col-10 col-md-7 mt-2 p-intro">
+                    <div class="title-intro">
+                        ¡HOLA!
+                    </div>
+                    <div class="text-intro">I'M FERNANDO</div>
+
+                    <div class="my-3 pb-3">
+                        <a href="https://www.linkedin.com/in/fernando-cabrera-a6a0901a3/" target="_blank"
+                            class="icon"><i class="fab fa-linkedin fa-2x px-2"></i></a>
+                        <a href="https://github.com/ferncabrera" target="_blank" class="icon"><i
+                                class="fab fa-github fa-2x px-2"></i></a>
+                        <a href="mailto:fcabrera@uwaterloo.ca" class="icon"><i class="fas fa-at fa-2x px-2"></i></a>
+                        <a href="https://drive.google.com/file/d/1Eou2aW3-WijxiJmLKHq_FC1BKLhpkgaH/view?usp=sharing"
+                            target="_blank" class="icon"><i class="fas fa-file fa-2x px-2"></i></a>
+                        <a href="https://www.instagram.com/fernandito.tt/?hl=en" target="_blank" class="icon"><i
+                                class="fab fa-instagram-square fa-2x px-2"></i></a>
+                    </div>
+                </div>
+            </div>
 
             <!-- </div> -->
         </div>
@@ -84,22 +104,22 @@
                 <!-- <div class="col-md-8 col-lg-8 col-xl-8 d-flex"> -->
 
                 <div class="col-12 col-sm-10 col-lg-4 col-xl-3 imageContainer mt-2 mb-4">
+
                     <img class="img-fluid imageBorder about-image" id="about-image"
-                        src="https://res.cloudinary.com/brothersingaming/image/upload/w_700,h_700,c_fill,g_auto/v1610224068/Prom2k19_ukommr.jpg"
+                        src="https://res.cloudinary.com/brothersingaming/image/upload/w_1100,h_1100,c_fill,g_auto/v1610426438/image_yypahl.png"
                         alt="">
                 </div>
                 <div class="col-12 col-sm-10 col-lg-5 my-auto px-about">
-                    <h1 class="h3 about-title"><em>¡Hola!&nbsp;</em> I'm Fernando</h1>
+                    <h1 class="h3 about-title">Thanks for stopping by!</h1>
                     <div class="spacing0"></div>
-                    <p class="about-text">Currently I'm a 2A Software Engineering student at the University of
-                        Waterloo. Being a
-                        student is
-                        kind of like a full time job, but when I'm not stressing over my next exam you can find
-                        me
-                        coding at hackathons, playing the guitar, or writing. I am also actively searching for
-                        internship opportunities during the winter term!</p>
+                    <p class="about-text">I'm a second year engineering student at the <a id="uw-link"
+                            href="https://uwaterloo.ca/">University of Waterloo</a> and I am actively searching for
+                        internship opportunities
+                        this summer! When I am not busy studying or programming, you can probably find me working out at
+                        my home gym or just hanging by myself - all in the name of self-isolation of course!</p>
                     <div class="spacing0"></div>
-                    <a href="#" style="font-size:small; font-weight: 400;" class="btn btn-outline py-2 px-5">MY
+                    <a href="https://drive.google.com/file/d/1Eou2aW3-WijxiJmLKHq_FC1BKLhpkgaH/view?usp=sharing"
+                        style="font-size:small; font-weight: 400;" class="btn btn-outline py-2 px-5">MY
                         RESUME</a>
 
                 </div>
@@ -117,10 +137,21 @@
                                         src="https://res.cloudinary.com/brothersingaming/image/upload/v1610263810/gamepad_uctm7t.png"
                                         alt="">
                                     <div class="spacing0"></div>
-                                    <h6 class="h6 slide-title-font">BROTHERSGAMING.COM</h6>
-                                    <p class="glide-text">A hardware project that triangulates sound using 3 microphones
-                                        to map the
-                                        crowdedness of specific areas over time.</p>
+                                    <h6 class="h6 slide-title-font">BROTHERSGAMING2.COM</h6>
+                                    <p class="glide-text">A blogging website made from scratch (with over 500 weekly
+                                        users!) developed
+                                        so that anyone can share, comment on and like articles.
+                                    </p>
+                                </li>
+
+                                <li class="glide__slide">
+                                    <img src="https://res.cloudinary.com/brothersingaming/image/upload/v1610266540/atom_bskwee.png"
+                                        alt="">
+                                    <div class="spacing0"></div>
+                                    <h6 class="h6 slide-title-font">LINK2EDIT.COM</h6>
+                                    <p class="glide-text">React app currently in development that takes advantage of
+                                        Cloudinaries amazing image transformation capabilities... excited yet?
+                                    </p>
                                 </li>
 
                                 <li class="glide__slide">
@@ -128,40 +159,33 @@
                                         alt="">
                                     <div class="spacing0"></div>
                                     <h6 class="h6 slide-title-font">FERNANDOCABRERA.COM</h6>
-                                    <p class="glide-text">A customized sign-in system for the Student Success classroom
-                                        at Richmond Hill
-                                        High School that generates analytics/reports.
+                                    <p class="glide-text">Personalized website made to showcase my skills and enhance
+                                        online footprint, absolutley no template neccessary!
                                     </p>
                                 </li>
 
-                                <li class="glide__slide">
-                                    <img src="https://res.cloudinary.com/brothersingaming/image/upload/v1610263909/fire_zxh7ax.png"
-                                        alt="">
-                                    <div class="spacing0"></div>
-                                    <h6 class="h6 slide-title-font">YELPCAMP</h6>
-                                    <p class="glide-text">A hardware project that triangulates sound using 3 microphones
-                                        to map the
-                                        crowdedness of specific areas over time.</p>
-                                </li>
 
                                 <li class="glide__slide ">
                                     <img src="https://res.cloudinary.com/brothersingaming/image/upload/v1610263974/processor_mpkhkp.png"
                                         alt="">
                                     <div class="spacing0"></div>
                                     <h6 class="h6 slide-title-font">TEMPERATURE SENSOR</h6>
-                                    <p class="glide-text">A Hack The Nfgforth Android app for companies to visualize
-                                        transaction data and find
-                                        optimal locations for their businesses.</p>
+                                    <p class="glide-text">Using python, a breadboard kit, an UNO R3, and an RTD Sensor,
+                                        I was able
+                                        to successfully create a temperature monitoring system!
+                                    </p>
                                 </li>
 
+
                                 <li class="glide__slide">
-                                    <img src="https://res.cloudinary.com/brothersingaming/image/upload/v1610266540/atom_bskwee.png"
+                                    <img src="https://res.cloudinary.com/brothersingaming/image/upload/v1610263909/fire_zxh7ax.png"
                                         alt="">
                                     <div class="spacing0"></div>
-                                    <h6 class="h6 slide-title-font">WHEREAREYOU.COM</h6>
-                                    <p class="glide-text">A customized sign-in system for the Student Success classroom
-                                        at Richmond Hill
-                                        High School that generates analytics/reports.</p>
+                                    <h6 class="h6 slide-title-font">YELPCAMP</h6>
+                                    <p class="glide-text">My first code-along project completed after finishing Colt
+                                        Steele's 64 hours Web Developers Bootcamp,
+                                        I put my own little twist on it though...
+                                    </p>
                                 </li>
                             </ul>
                         </div>
@@ -181,43 +205,111 @@
 
         <div class="section container-fluid mh-75" id="section2">
             <div class="row justify-content-center">
-                <div class="h1 mb-5 text-center">
+                <div class="h1 mb-5 text-center technical-title">
                     Technical Skills
                 </div>
                 <div class="col-sm-10 col-lg-5 col-xl-5">
                     <!-- <div class="container-fluid"> -->
                     <div class="bg-skills border-skills text-center w-100 p-skills mb-skills">
+                        <div class="">
+                            <p>
+                                <span class="bold">Languages:</span> Javascript, Java, Python, HTML/CSS, LaTex, Dart
+                            </p>
+                        </div>
+                        <div class="">
+                            <p>
+                                <span class="bold">Technologies:</span> Node.js, Express.js, React, Redux, MongoDB,
+                                MySQL, Django, Git
+                            </p>
+                        </div>
+                        <div class="skill-box">
+                            <h1 class="skills-title">Software</h1>
+                        </div>
+                        <div class="">
+                            <p>
+                                <span class=>Hardware:</span> Breadboard, DC/AC sources, piezoelectricity
+                            </p>
+                        </div>
+                        <div class="">
+                            <p>
+                                <span class="bold">Experience:</span> Diffusiv, Scope Photonics
+                            </p>
+                        </div>
 
-                        <h1 class="skills-title">Software</h1>
                     </div>
+
+
                     <!-- </div> -->
 
                 </div>
                 <div class="col-sm-10 col-lg-5 col-xl-5">
                     <!-- <div class="container-fluid"> -->
-                    <div class=" bg-skills border-skills text-center p-skills">
-                        <h1 class="skills-title">Laboratory</h1>
+                    <div class=" bg-skills border-skills w-100 text-center p-skills mb-skills">
+                        <div class="">
+                            <p>
+                                <span class="bold">Laboratory:</span> Glove box, Sonicator, Centrifuge, Vacuum oven
+                            </p>
+                        </div>
+                        <div class="">
+                            <p>
+                                <span class="bold">Characterization:</span> SEM, DSC
+                            </p>
+                        </div>
+                        <div class="skill-box">
+                            <h1 class="skills-title">Laboratory</h1>
+                        </div>
+                        <div class="">
+                            <p>
+                                <span class="bold">Materials:</span> Nanomaterial, Biohazardous, Biological VOC's
+                            </p>
+                        </div>
+                        <div class="">
+                            <p>
+                                <span class="bold">Other:</span> Spanish-fluent, English-fluent, fully licensed driver,
+                                Office Suite
+                            </p>
+                        </div>
                     </div>
                     <!-- </div> -->
                 </div>
             </div>
             <div class="row justify-content-center">
-                <h1 class="text-center">Thank You!</h1>
-                <div class="text-center">
-                    <span class="">Thank you</span> for visiting my Website! Below are some links you may be
-                    interested in.
-                </div>
-                <div class="col-10">
-                    <a href="" class="btn btn-lg btn-outline mx-3 my-5" id="btncolor">Research</a>
-                    <a href="" class="btn btn-lg btn-outline mx-3 my-5" id="btncolor">Contact Me</a>
-                    <a href="" class="btn btn-lg btn-outline mx-3 my-5" id="btncolor">Resume</a>
-                    <a href="" class="btn btn-lg btn-outline mx-3 my-5" id="btncolor">Back to Top</a>
-                </div>
 
-                <div>
-                    If you enjoyed visting my website and would like to learn more about me and connect with me on other
-                    platforms, below are once
-                    again some links.
+                <h1 class="text-center mt-3 technical-title">Thank You!</h1>
+                <div class="text-center end-text">
+                    <p>
+                        <span>Thank you</span> for visiting my Website! Below are some links you may be
+                        interested in.
+                    </p>
+                </div>
+                <div class="col-10 text-center">
+                    <a href="mailto:fcabrera@uwaterloo.ca" style="font-size:small; font-weight: 400;"
+                        class="btn btn-lg btn-outline-bottom mx-3 py-2 px-5 my-3">Contact Me</a>
+
+                    <a href="http://www.brothersingaming2.com/" style="font-size:small; font-weight: 400;"
+                        class="btn btn-lg btn-outline-bottom mx-3 py-2 px-5 my-3">Brothers in Gaming 2</a>
+
+                    <a href="#firstPage" style="font-size:small; font-weight: 400;"
+                        class="btn btn-lg btn-outline-bottom mx-3 py-2 px-5 my-3">Back to Top</a>
+                </div>
+                <div class="col-12">
+                    <div class="text-center end-text pt-3">
+                        If you enjoyed visting my website and would like to learn more about me and connect with me on
+                        other
+                        platforms, <br> below are once
+                        again some links.
+                    </div>
+                </div>
+                <div class="my-5 text-center pb-3">
+                    <a href="https://www.linkedin.com/in/fernando-cabrera-a6a0901a3/" target="_blank" class="icon"><i
+                            class="fab fa-linkedin fa-2x px-2"></i></a>
+                    <a href="https://github.com/ferncabrera" target="_blank" class="icon"><i
+                            class="fab fa-github fa-2x px-2"></i></a>
+                    <a href="mailto:fcabrera@uwaterloo.ca" class="icon"><i class="fas fa-at fa-2x px-2"></i></a>
+                    <a href="https://drive.google.com/file/d/1Eou2aW3-WijxiJmLKHq_FC1BKLhpkgaH/view?usp=sharing"
+                        target="_blank" class="icon"><i class="fas fa-file fa-2x px-2"></i></a>
+                    <a href="https://www.instagram.com/fernandito.tt/?hl=en" target="_blank" class="icon"><i
+                            class="fab fa-instagram-square fa-2x px-2"></i></a>
                 </div>
             </div>
 
@@ -239,6 +331,7 @@
         integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw=="
         crossorigin="anonymous"></script>
     <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
     <script src="public/script.js"></script>
 
 </body>
