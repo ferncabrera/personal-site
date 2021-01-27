@@ -54,11 +54,13 @@ $(window).scroll(function () {
     $("#mainNav .navbar-brand").addClass("active");
     $(".navbar-light .navbar-toggler-icon").removeClass("active");
     $(".navbar-toggler").removeClass("active");
+    $("#mainNav .nav-profile").addClass("active");
   } else {
     $("#mainNav .nav-link").removeClass("active");
     $("#mainNav .navbar-brand").removeClass("active");
     $("#mainNav .navbar-brand").removeClass("active");
     $(".navbar-light .navbar-toggler-icon").addClass("active");
     $(".navbar-toggler").addClass("active");
+    $("#mainNav .nav-profile").removeClass("active");
   }
 });
