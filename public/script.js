@@ -8,7 +8,6 @@ const myFullpage = new fullpage("#fullpage", {
   showActiveTooltip: true,
 });
 
-console.log("testing git");
 
 const config = {
   type: "carousel",
